@@ -18,7 +18,7 @@ manage_clipboard = ["clipboard", "thread_local"]
 open_url = ["webbrowser"]
 
 [dependencies]
-bevy = { version = "0.6", default-features = false, features = [
+bevy = { git = "https://github.com/bevyengine/bevy.git", rev = "f3de12bc5e03c58a9b863943b8db84a321422bec", default-features = false, features = [
     "bevy_render",
     "bevy_winit",
     "bevy_core_pipeline"
